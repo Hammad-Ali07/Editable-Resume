@@ -13,7 +13,8 @@ body {
 }
 #heading{
     text-align: center;
-    color: #007BFF;
+    color: #10ebcd;
+    font-size: 35px;
 }
 @keyframes gradientBackground {
     0% {
@@ -35,7 +36,7 @@ body {
     background-color: #ffffff;
     border-radius: 16px; /* Increased border radius */
     padding: 20px;
-    box-shadow: 0 8px 35px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 35px rgb(43, 218, 180);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
     animation: fadeIn 1s ease-out, scaleUp 1s ease-out;
 }
@@ -73,7 +74,7 @@ label {
     display: block;
     margin-bottom: 0.5em;
     font-weight: bold;
-    color: #333;
+    color: #d39000;
     font-size: 1.1em;
 }
 
@@ -81,15 +82,15 @@ input[type="text"], input[type="email"], textarea {
     width: 100%;
     padding: 0.75em;
     margin-top: 0.5em;
-    border: 2px solid #007BFF;
+    border: 2px solid #0075f1;
     border-radius: 8px; /* Added border radius */
     box-sizing: border-box;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
-    border-color: #0056b3;
-    box-shadow: 0 0 12px rgba(0, 86, 179, 0.5);
+    border-color: #083f7a;
+    box-shadow: 0 0 12px rgb(4, 33, 65);
     outline: none;
 }
 
@@ -100,18 +101,22 @@ textarea {
 
 button {
     padding: 0.75em 1.5em;
+    margin-top: 22px;
     border: none;
-    color: white;
-    background: linear-gradient(135deg, #007BFF, #0056b3);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    background: linear-gradient(135deg, #0dddba, #0ddfdf);
     border-radius: 8px; /* Added border radius */
     cursor: pointer;
     margin-right: 1em;
     transition: background 0.3s ease, transform 0.3s ease;
     font-size: 1em;
+    
+    
 }
 
 button:hover {
-    background: linear-gradient(135deg, #0056b3, #007BFF);
+    background: linear-gradient(135deg, #e4c206, #ecc518);
     transform: scale(1.05);
 }
 
@@ -126,7 +131,7 @@ button:hover {
     border-radius: 50%;
     display: block;
     margin: auto;
-    border: 4px solid #007BFF;
+    border: 4px solid #12ece1;
     transition: border-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -137,10 +142,8 @@ button:hover {
 
 #resumePage h2, #resumePage p {
     margin: 0.5em 0;
-    padding: 0.75em;
-    border: 2px solid #ddd;
+    padding: 0.40em;
     border-radius: 8px; /* Added border radius */
-    background-color: #f9f9f9;
     cursor: text;
     transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
 }
@@ -148,7 +151,7 @@ button:hover {
 #resumePage h2:hover, #resumePage p:hover {
     background-color: #e9ecef;
     border-color: #007BFF;
-    color: #0056b3;
+    color: #2e68a7;
 }
 
 /* Adding borders to specific sections */
@@ -159,8 +162,16 @@ button:hover {
     margin-bottom: 15px;
     background-color: #f9f9f9;
 }
+.resume-content h2{
+    text-align: left;
+    color: #1987fd;
+    text-decoration: underline ;
 
-/* Responsive Styles */
+}
+.resume-content h1{
+    color: #00aca3;
+    text-align: center;
+}
 
 /* Tablets */
 @media (max-width: 768px) {

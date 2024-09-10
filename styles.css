@@ -13,7 +13,7 @@ body {
 }
 #heading{
     text-align: center;
-    color: #10ebcd;
+    color: #07a893;
     font-size: 35px;
 }
 @keyframes gradientBackground {
@@ -165,7 +165,6 @@ button:hover {
 .resume-content h2{
     text-align: left;
     color: #1987fd;
-    text-decoration: underline ;
 
 }
 .resume-content h1{
